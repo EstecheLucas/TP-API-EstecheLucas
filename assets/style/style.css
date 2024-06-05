@@ -1,0 +1,38 @@
+body{
+    margin: 80px;
+    padding: 0;
+    background-color: rgb(192, 108, 222);
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.imagen{
+    display: flex;
+
+}
+.imagen{
+    width: 100%;
+    
+    
+}
+img{
+    
+    filter: drop-shadow(1px 1px 40px black);
+    border-radius: 20px;
+  
+
+}
+img:hover{
+
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
